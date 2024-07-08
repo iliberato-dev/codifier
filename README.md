@@ -20,12 +20,7 @@ O **codifier** é uma aplicação web desenvolvida para criptografar e descripto
 1. [Descrição](#descrição)
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4. [Fluxo de Segurança](#fluxo-de-segurança)
-5. [Fluxo de Renderização AI](#fluxo-de-renderização-ai)
-6. [Plugins Criados](#plugins-criados)
-7. [Exemplos de Uso](#exemplos-de-uso)
-8. [Instalação](#instalação)
-9. [Licença](#licença)
+4. [Licença](#licença)
 
 ## Figma do Projeto 
 
