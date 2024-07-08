@@ -1,0 +1,141 @@
+@import url(../Fonts/font.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Cores Components */
+    --color-primary: rgb(113, 10, 108);
+    --color-secondary: #242421da;
+    --color-danger: #DA5A5A;
+    /* Cores tem Branco */
+    --color-ligth: #fff;
+    --color-dark: #343A40;
+    /* Fonts */
+    --font-family: "Inter", sans-serif;
+    /* Text-color */
+    --text-primary: rgb(203, 216, 231);
+    --text-secondary: #29BA63;
+    --text-danger: #DA5A5A;
+}
+
+
+
+/* .inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+} */
+
+body {
+    height: 100vh;
+    position: relative;
+    background-color: #504ec8;
+
+}
+
+/* HTML: <div class="loader"></div> */
+
+.loader {
+    --d: 40px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    color:var(--color-primary);
+    box-shadow:
+        calc(1*var(--d)) calc(0*var(--d)) 0 0,
+        calc(0.707*var(--d)) calc(0.707*var(--d)) 0 1px,
+        calc(0*var(--d)) calc(1*var(--d)) 0 2px,
+        calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 3px,
+        calc(-1*var(--d)) calc(0*var(--d)) 0 4px,
+        calc(-0.707*var(--d)) calc(-0.707*var(--d))0 5px,
+        calc(0*var(--d)) calc(-1*var(--d)) 0 6px;
+    animation: l27 1s infinite steps(8);
+}
+
+@keyframes l27 {
+    100% {
+        transform: rotate(1turn)
+    }
+}
+
+
+.swal-title {
+    font-family: var(--font-family);
+}
+
+.swal-content {
+    font-family: var(--font-family);
+}
+
+img {
+    -moz-window-dragging: none;
+    -webkit-user-drag: none;
+}
+
+
+@keyframes animate {
+
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #397524 #DFE9EB;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #dfe9eb00;
+}
+
+/* *::-webkit-scrollbar-track:hover {
+    background-color: #B8C0C2;
+} */
+/* 
+*::-webkit-scrollbar-track:active {
+    background-color: #B8C0C2;
+} */
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    cursor: default;
+    background-color: #ffffff;
+}
+
+/* *::-webkit-scrollbar-thumb:hover {
+    background-color: #868686;
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: #62A34B;
+} */
+
+.swal2-modal{
+    font-family: var(--font-family);
+    font-weight:700;
+}

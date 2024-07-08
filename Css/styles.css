@@ -1,0 +1,467 @@
+@import url(./@globais.css);
+
+
+.container-components-strt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+}
+
+.container-header {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    /* background-color: brown; */
+    padding: 0.5rem 2rem;
+}
+
+
+/* Navigation-Container */
+
+.container-header .navigation ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    gap: 3rem;
+
+}
+
+.container-header .navigation ul li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+}
+
+.container-header .navigation ul li>a {
+    width: 100%;
+    text-decoration: none;
+    font-family: var(--font-family);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* 
+    Container-Actions
+*/
+
+.container-actions {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    /* background-color: aquamarine; */
+    gap: 1rem;
+    padding: 1rem;
+    position: relative;
+
+
+}
+
+
+.menu-tools {
+    padding: 1rem;
+    width: 100%;
+    height: 30%;
+    background-color: var(--color-primary);
+    display: flex;
+    /*align-items: center;
+    */
+    gap: 1rem;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    position: relative;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+.menu-tools .menu-tools_Logo {
+    margin-top: -5rem;
+    display: flex;
+    align-self: center;
+}
+
+.menu-tools .menu-tools_Logo img {
+    cursor: pointer;
+    margin: 0 auto;
+    /* background-color: #00FF80; */
+}
+
+/* .menu-tools .menu-tools_Buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    font-family: var(--font-family);
+}
+
+.menu-tools_Buttons .button_icon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: aqua;
+
+} */
+
+
+/* .menu-tools_Buttons .button_icon button {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: var(--color-ligth);
+    justify-content: space-around;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: var(--text-primary);
+    cursor: pointer;
+} */
+
+/* .menu-tools_Buttons .button_icon img {
+    width: 2rem;
+    fill: black;
+    stroke: aqua;
+} */
+
+
+
+.container-actions .container-criptografia {
+    padding: 2rem 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+/* .container-criptografia .container-criptografia_header_actions {
+    display: flex;
+    align-items: center;
+     background: red; 
+    width: 100%;
+    border-bottom: 1px solid var(--color-primary);
+    border-bottom-width: 0.5rem;
+} */
+
+
+/* .container-criptografia .container-criptografia_header_actions .container-criptografia_header_actions_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-family);
+    font-weight: 700;
+     background-color: antiquewhite; 
+    padding: 1rem 1rem;
+    gap: 1rem;
+    width: 100%;
+} */
+
+/* Container CripTexto */
+.container-criptografia_header_actions_cripto_texto {
+    /* background-color: aliceblue; */
+    background-image: url(../Assets/Text.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 1rem 2rem; 
+    width: 100%;
+    height: 65%;
+    margin-bottom: 5rem;
+}
+
+.container-criptografia_header_actions_cripto_texto textarea {
+    font-family: var(--font-family);
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-ligth);
+}
+
+.container-criptografia_header_actions_cripto_texto textarea::placeholder {
+    color: var(--color-ligth);
+
+}
+
+.container-criptografia_header_actions_footer {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    width: 100%;
+    border-top: 1px solid var(--color-primary);
+    border-top-width: 0.5rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-criptografia_header_actions_footer_button {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    justify-content: center;
+
+    height: 100%;
+
+}
+
+.container-criptografia_header_actions_footer_button button {
+    display: flex;
+    align-items: center;
+    /*background: red;
+    */
+    justify-content: center;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    outline: none;
+    border: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+
+
+
+.container-criptografia_header_actions_footer_button button:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container-criptografia_header_actions_footer_button button:hover:before {
+    width: 400%;
+    height: 400%;
+}
+
+.container-criptografia_header_actions_footer_button button:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2), 0 3px 3px rgba(0, 0, 0, 0.2);
+    transform: translateY(4px);
+}
+
+.container-criptografia_header_actions_footer_button button svg {
+    width: 2rem;
+    height: 2rem;
+    fill: white;
+    stroke: black;
+    animation: icon-spin 2s linear infinite;
+}
+
+@keyframes icon-spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container-criptografia_header_actions_footer_button img {
+    width: 2rem;
+}
+
+.container-actions .container-descriptografia {
+    padding: 2rem 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-secondary);
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+}
+
+.container-descriptografia .container-descriptografia_header_actions {
+    display: flex;
+    align-items: center;
+    /* background: rgb(255, 208, 0);  */
+    width: 100%;
+    border-bottom: 1px solid var(--color-primary);
+    border-bottom-width: 0.5rem;
+}
+
+.container-descriptografia_header_actions_title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding: 1rem 1rem;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.container-descriptografia_header_actions_title h1 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+    font-size: 2rem;
+    color: var(--color-ligth);
+    padding: 0.2rem 1rem;
+
+}
+
+.container-descriptografar_header_actions_cripto_texto {
+    /* background-color: aliceblue; */
+    width: 100%;
+    height: 65%;
+}
+
+
+.container-descriptografar_header_actions_cripto_texto textarea {
+    font-family: var(--font-family);
+    font-weight: 700;
+    width: 100%;
+    height: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+    background: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--color-ligth);
+}
+
+.container-descriptografia_header_actions_footer {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    width: 100%;
+    justify-content: center;
+}
+
+.container-descriptografar_header_actions_footer_button {
+    display: flex;
+    align-items: center;
+    /* background: red; */
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.container-descriptografar_header_actions_footer_button button {
+    display: flex;
+    align-items: center;
+    /*background: red;
+    */
+    margin-bottom: -5rem;
+    justify-content: center;
+    width: 70%;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--color-ligth);
+    height: 5rem;
+    background-color: var(--color-primary);
+    border-radius: 59.5px;
+    outline: none;
+    border: none;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -webkit-border-radius: 59.5px;
+    -moz-border-radius: 59.5px;
+    -ms-border-radius: 59.5px;
+    -o-border-radius: 59.5px;
+}
+
+.container-descriptografia_header_actions_footer_link_skin {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-family);
+    font-weight: 700;
+    padding-left: 1rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: var(--color-primary);
+
+}
+.container-actions-button-descriptografia{
+    display: flex;
+}
+
+/* Media Queries */
+@media (max-width: 999px) {
+    html {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-components-strt {
+        width: 100%;
+        height: 100%;
+        display: block;
+        /* background-color: aquamarine; */
+        gap: 1rem;
+        padding: 1rem;
+        position: relative;
+    }
+    
+    .modal-content{
+        width: 90%;
+    }
+
+    .container-actions {
+        display: flex;
+        justify-content: center;
+        margin-top: 7rem;
+        flex-direction: column;
+        height: 250%;
+    }
+
+    .container-criptografia_header_actions_cripto_texto {
+        background-size: 90%;
+    }
+
+}

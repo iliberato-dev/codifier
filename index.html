@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Criptografar Texto...">
+    <link rel="apple-touch-icon" sizes="180x180" href="Assets/Icons/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Assets/Icons/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Assets/Icons/logo.png">
+
+    <link rel="stylesheet" href="Css/styles.css" type="text/css" media="all">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Codifier</title>
+</head>
+
+<body>
+
+
+    <div class="container-components-strt">
+        <!-- Navegação -->
+        <header class="container-header">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="https://github.com/iliberato-dev" target="_blank">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/isaque-liberato/" target="_blank">Linkedin</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- Conteudo Actions -->
+        <section class="container-actions">
+            <div class="container-menu-history">
+                <div class="menu-tools">
+                    <div class="menu-tools_Logo">
+                        <img src="Assets/Icons/logo.png" alt="Logo.svg"  width="250"/>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="container-criptografia">
+
+
+                <div class="container-criptografia_header_actions_cripto_texto">
+                    <textarea placeholder="Digite seu Texto..." id="texto_codificar"></textarea>
+                </div>
+
+                <div class="container-criptografia_header_actions_footer">
+                    <div class="container-criptografia_header_actions_footer_button">
+                        <button class="criptografar">
+                            <img src="./Assets/Icons/PadLock_Open.svg">
+                        </button>
+                    </div>
+
+                    <div class="container-criptografia_header_actions_footer_button">
+
+                        <button class="descriptografar">
+                            <img src="./Assets/Icons/PadLock_Close.svg">
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container-descriptografia">
+                <div class="container-descriptografia_header_actions">
+                    <div class="container-descriptografia_header_actions_title">
+                        <h1>Codigo Gerado</h1>
+                    </div>
+                </div>
+
+                <div class="container-descriptografar_header_actions_cripto_texto">
+                    <textarea disabled id="texto_codificado"></textarea>
+                </div>
+
+                <div class="container-descriptografia_header_actions_footer">
+                    <div class="container-descriptografar_header_actions_footer_button">
+                        <button class="copiar">
+                            Copiar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./Js/Configuration.js"></script>
+    <script src="./Js/Criptografar.js"></script>
+    <script src="./Js/Descriptografar.js"></script>
+    <script src="./Js/Commands.js"></script>
+</body>
+
+</html>
