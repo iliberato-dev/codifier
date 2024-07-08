@@ -20,7 +20,6 @@ O **codifier** é uma aplicação web desenvolvida para criptografar e descripto
 1. [Descrição](#descrição)
 2. [Funcionalidades](#funcionalidades)
 3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
-4. [Licença](#licença)
 
 ## Figma do Projeto 
 
@@ -43,7 +42,3 @@ O **codifier** é uma aplicação web desenvolvida para criptografar e descripto
 >[!TIP]
 >`https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap `
 
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
