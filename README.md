@@ -5,7 +5,7 @@
 O **codifier** é uma aplicação web desenvolvida para criptografar e descriptografar textos.
 
 ## Vizualizar Projeto
-[Entre aqui para Vizualizar 📦]()
+[Entre aqui para Vizualizar 📦](https://iliberato-dev.github.io/codifier/)
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
