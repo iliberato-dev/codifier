@@ -1,4 +1,4 @@
-# CripTexto
+# CripTexto 2
 <img src="./Assets/Screenshots/01.png" alt="" />
 
 ## Descrição
